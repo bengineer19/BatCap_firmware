@@ -11,6 +11,7 @@
 
 #define LDR_THRESH 60
 
+// Determines whether the FET is currently supplying power or not
 bool powerOn = true;
 
 void setup() {
